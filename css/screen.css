@@ -65,6 +65,7 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .bustext .bustext__welcome { float: right; margin-top: 61px; margin-right: 73px; }
 
 .sl .sl__slide { position: relative; }
+.sl .poster { overflow: hidden; }
 .sl .poster img { display: block; width: 100%; }
 
 .sl__wrap { height: 360px; position: relative; z-index: 2000; }
@@ -75,7 +76,7 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .slick-active + .slick-active + .slick-active + .slick-active + .slick-active { position: static; }
 .slick-active + .slick-active + .slick-active + .slick-active + .slick-active .poster { position: static; }
 
-.poster__over { position: absolute; bottom: 0; position: absolute; left: 0; right: 0; height: 404px; background: url(../img/busover.png) no-repeat 0 0; z-index: 100; display: none; }
+.poster__over { position: absolute; bottom: 0; position: absolute; left: 0; right: 0; height: 404px; background: url(../img/busover.png) no-repeat 0 0; z-index: 500; display: none; }
 
 .sl .slick-center { position: relative; z-index: 2000; }
 .sl .slick-center .poster { position: absolute; left: -40px; right: -40px; top: -50px; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; transition: all 0.2s linear; }
