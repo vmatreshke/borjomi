@@ -75,9 +75,11 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .slick-active + .slick-active + .slick-active + .slick-active + .slick-active { position: static; }
 .slick-active + .slick-active + .slick-active + .slick-active + .slick-active .poster { position: static; }
 
+.poster__over { position: absolute; bottom: 0; position: absolute; left: 0; right: 0; height: 166px; background: url(../img/busover.png) no-repeat 0 0; z-index: 100; display: none; }
+
 .sl .slick-center { position: relative; z-index: 2000; }
-.sl .slick-center .poster { position: absolute; left: -40px; right: -40px; top: -50px; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear; }
-.sl .slick-center .poster .poster__over { position: absolute; bottom: 0; left: 0; right: 0; height: 166px; background: url(../img/busover.png) no-repeat 0 0; z-index: 100; }
+.sl .slick-center .poster { position: absolute; left: -40px; right: -40px; top: -50px; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; transition: all 0.2s linear; }
+.sl .slick-center .poster .poster__over { bottom: 0; display: block; }
 
 .slick-list { padding-top: 70px !important; padding-bottom: 70px !important; }
 
