@@ -32,7 +32,7 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .header ul { list-style: none; text-align: right; font-size: 16px; text-transform: uppercase; padding-top: 16px; margin-right: 48px; float: right; }
 .header ul li { display: inline-block; }
 .header ul a { display: inline-block; color: #053766; text-decoration: none; margin-left: 58px; }
-.header ul a:hover { font-weight: bold; }
+.header ul a:hover { color: #006d67; }
 
 .buspromo { position: relative; background: #94b3ae; text-align: center; padding-bottom: 76px; margin-bottom: 51px; }
 .buspromo .buspromo__dates { background: url('../img/icons-se6604e9b92.png') 0 0 no-repeat; width: 129px; height: 166px; font: 0/0 a; text-shadow: none; color: transparent; position: absolute; left: 33px; top: 55px; }
