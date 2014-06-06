@@ -76,11 +76,11 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .slick-active + .slick-active + .slick-active + .slick-active + .slick-active { position: static; }
 .slick-active + .slick-active + .slick-active + .slick-active + .slick-active .poster { position: static; }
 
-.poster__over { position: absolute; bottom: 0; position: absolute; left: 0; right: 0; height: 404px; background: url(../img/busover.png) no-repeat 0 0; z-index: 500; display: none; }
+.poster__over { position: absolute; bottom: 0; position: absolute; left: 0; right: 0; height: 404px; background: url(../img/busover.png) no-repeat 0 0; z-index: 500; opacity: 0; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
 
 .sl .slick-center { position: relative; z-index: 2000; }
 .sl .slick-center .poster { position: absolute; left: -40px; right: -40px; top: -50px; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; transition: all 0.2s linear; }
-.sl .slick-center .poster .poster__over { bottom: 0; display: block; }
+.sl .slick-center .poster .poster__over { display: block; opacity: 1; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
 
 .slick-list { padding-top: 70px !important; padding-bottom: 70px !important; }
 
