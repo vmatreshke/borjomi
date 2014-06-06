@@ -288,3 +288,64 @@
 	@each $s in fb,tw,in,gp
 		.friends__#{$s}
 			+s(#{$s})
+
+
+.schedule
+	margin: 60px 0
+	.schedule__title
+		font-size: 24px 
+		border-top: 2px solid #001F3A
+		text-transform: uppercase
+		font-weight: normal
+		color: #001F3A
+		text-align: center
+		 
+		span
+			display: inline-block
+			padding: 0 36px
+			background: #fff  
+			position: relative
+			top: -.6em 
+			line-height: 1 
+	table
+		border-spacing: 10px
+		border-collapse: collapse  
+		width: 100% 
+		thead
+			th
+				font-weight: normal
+				text-align: center
+				border-right: 10px solid #fff 
+				&:first-child
+					text-align: left
+					div
+						padding-left: 15px 
+				div
+					background: #9B8052
+					height: 28px 
+					line-height: 41px 
+					font-size: 28px  
+					color: #fff 
+					border-bottom: 10px solid #fff 
+					strong
+						font-weight: normal
+						+b
+		tbody
+			td,th
+				background: #C4D4CF 
+				font-size: 18px 
+				color: #001F3A
+				border-bottom: 3px solid #fff
+				border-right: 10px solid #fff  
+			th
+				font-weight: normal
+				text-align: left
+				padding-left: 15px 
+				height: 29px 
+				vertical-align: middle 
+			td
+				text-align: center
+				vertical-align: middle
+				text-transform: uppercase
+				&.empty
+					background: #fff 

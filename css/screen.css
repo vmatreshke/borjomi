@@ -111,3 +111,17 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .friends .friends__tw { background: url('../img/icons-se6604e9b92.png') 0 -351px no-repeat; width: 39px; height: 40px; }
 .friends .friends__in { background: url('../img/icons-se6604e9b92.png') 0 -401px no-repeat; width: 39px; height: 40px; }
 .friends .friends__gp { background: url('../img/icons-se6604e9b92.png') 0 -301px no-repeat; width: 39px; height: 40px; }
+
+.schedule { margin: 60px 0; }
+.schedule .schedule__title { font-size: 24px; border-top: 2px solid #001f3a; text-transform: uppercase; font-weight: normal; color: #001f3a; text-align: center; }
+.schedule .schedule__title span { display: inline-block; padding: 0 36px; background: white; position: relative; top: -0.6em; line-height: 1; }
+.schedule table { border-spacing: 10px; border-collapse: collapse; width: 100%; }
+.schedule table thead th { font-weight: normal; text-align: center; border-right: 10px solid white; }
+.schedule table thead th:first-child { text-align: left; }
+.schedule table thead th:first-child div { padding-left: 15px; }
+.schedule table thead th div { background: #9b8052; height: 28px; line-height: 41px; font-size: 28px; color: white; border-bottom: 10px solid white; }
+.schedule table thead th div strong { font-weight: normal; font-family: dinb, arial, sans-serif; }
+.schedule table tbody td, .schedule table tbody th { background: #c4d4cf; font-size: 18px; color: #001f3a; border-bottom: 3px solid white; border-right: 10px solid white; }
+.schedule table tbody th { font-weight: normal; text-align: left; padding-left: 15px; height: 29px; vertical-align: middle; }
+.schedule table tbody td { text-align: center; vertical-align: middle; text-transform: uppercase; }
+.schedule table tbody td.empty { background: white; }
