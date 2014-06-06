@@ -32,6 +32,7 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .header ul { list-style: none; text-align: right; font-size: 16px; text-transform: uppercase; padding-top: 16px; margin-right: 48px; float: right; }
 .header ul li { display: inline-block; }
 .header ul a { display: inline-block; color: #053766; text-decoration: none; margin-left: 58px; }
+.header ul a:hover { font-weight: bold; }
 
 .buspromo { position: relative; background: #94b3ae; text-align: center; padding-bottom: 76px; margin-bottom: 51px; }
 .buspromo .buspromo__dates { background: url('../img/icons-se6604e9b92.png') 0 0 no-repeat; width: 129px; height: 166px; font: 0/0 a; text-shadow: none; color: transparent; position: absolute; left: 33px; top: 55px; }
@@ -67,11 +68,11 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 
 .map { margin-bottom: 50px; }
 
-.hashtag { margin-bottom: 109px; }
+.hashtag { margin-bottom: 109px; display: none; }
 .hashtag .hashtag__title { text-align: center; border-top: 2px solid #006e68; }
 .hashtag .hashtag__title span { display: inline-block; position: relative; top: -0.5em; padding: 0 65px; background: white; font-size: 47px; font-weight: normal; color: #0f4a49; line-height: 1; text-transform: uppercase; font-family: dinb, arial, sans-serif; }
 
-#instafeed { margin-right: -13px; font-size: 0; }
+#instafeed { margin-right: -13px; font-size: 0; display: none; }
 #instafeed a { width: 220px; display: inline-block; margin: 0 12px 12px 0; }
 #instafeed a img { display: block; width: 220px; }
 
