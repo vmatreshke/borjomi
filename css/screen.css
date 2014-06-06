@@ -35,6 +35,7 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .header ul a:hover { color: #006d67; }
 
 .buspromo { position: relative; background: #94b3ae; text-align: center; padding-bottom: 76px; margin-bottom: 51px; }
+.buspromo .buspromo__illustration { overflow: hidden; }
 .buspromo .buspromo__dates { background: url('../img/icons-se6604e9b92.png') 0 0 no-repeat; width: 129px; height: 166px; font: 0/0 a; text-shadow: none; color: transparent; position: absolute; left: 33px; top: 55px; }
 .buspromo .buspromo__alphajazz { right: 44px; top: 60px; position: absolute; background: url('../img/icons-se6604e9b92.png') 0 -230px no-repeat; width: 112px; height: 61px; }
 .buspromo .buspromo__text { font-size: 20px; color: #082038; text-transform: uppercase; text-align: center; padding: 0 40px; }
