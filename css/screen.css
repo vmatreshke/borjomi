@@ -31,10 +31,10 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .header .header__logo { float: left; background: url('../img/icons-se6604e9b92.png') 0 -176px no-repeat; width: 127px; height: 44px; font: 0/0 a; text-shadow: none; color: transparent; display: block; margin-left: 38px; }
 .header ul { list-style: none; text-align: right; font-size: 16px; text-transform: uppercase; padding-top: 16px; margin-right: 48px; float: right; }
 .header ul li { display: inline-block; }
-.header ul a { display: inline-block; color: #053766; text-decoration: none; margin-left: 58px; }
+.header ul a { display: inline-block; color: #053766; text-decoration: none; margin-left: 38px; }
 .header ul a:hover { color: #006d67; }
 
-.buspromo { position: relative; background: #94b3ae; text-align: center; padding-bottom: 76px; margin-bottom: 51px; }
+.buspromo { position: relative; background: #94b3ae; text-align: center; padding-bottom: 76px; margin-bottom: 101px; }
 .buspromo .buspromo__illustration { overflow: hidden; }
 .buspromo .buspromo__dates { background: url('../img/icons-se6604e9b92.png') 0 0 no-repeat; width: 129px; height: 166px; font: 0/0 a; text-shadow: none; color: transparent; position: absolute; left: 33px; top: 55px; }
 .buspromo .buspromo__alphajazz { right: 44px; top: 60px; position: absolute; background: url('../img/icons-se6604e9b92.png') 0 -230px no-repeat; width: 112px; height: 61px; }
@@ -62,7 +62,7 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .bustext .bustext__text { font-size: 16px; color: #082038; text-transform: uppercase; }
 .bustext .bustext__text strong { font-family: dinb, arial, sans-serif; }
 .bustext .share { margin-top: 40px; }
-.bustext .bustext__welcome { float: right; margin-top: 61px; margin-right: 73px; }
+.bustext .bustext__welcome { float: right; margin-top: 61px; width: 50%; text-align: center; }
 
 .sl .sl__slide { position: relative; }
 .sl .poster { overflow: hidden; }
@@ -94,6 +94,8 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 #instafeed a { width: 220px; display: inline-block; margin: 0 12px 12px 0; }
 #instafeed a img { display: block; width: 220px; }
 
+.share { text-transform: none; }
+
 .borjomimusic { position: relative; margin-bottom: 107px; }
 .borjomimusic .borjomimusic__info { width: 543px; margin-left: 50px; margin-bottom: 61px; }
 .borjomimusic .borjomimusic__illustration { position: absolute; top: 107px; right: 83px; z-index: 10; }
@@ -121,7 +123,8 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .photo3d .photo3d__text .share { margin-top: 20px; }
 .photo3d .photo3d__map { float: right; }
 
-.friends { border-top: 17px solid #006e68; border-bottom: 17px solid #006e68; padding: 34px 0 41px 0; text-align: center; }
+.friends { border-top: 17px solid #9a8050; padding: 34px 0 41px 0; text-align: center; }
+.friends * { display: none; }
 .friends h3 { font-weight: normal; font-family: dinb, arial, sans-serif; font-size: 26px; color: #2e8a86; text-transform: uppercase; margin-bottom: 16px; }
 .friends ul { list-style: none; text-align: center; font-size: 0; }
 .friends ul li { display: inline-block; }
