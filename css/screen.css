@@ -59,7 +59,9 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 
 .bustext { margin-top: 93px; overflow: hidden; }
 .bustext .bustext__info { width: 505px; margin-left: 64px; }
+@media only screen and (max-width: 920px) { .bustext .bustext__info { width: auto; margin: 20px; } }
 .bustext .bustext__features { list-style: none; margin-bottom: 47px; }
+@media only screen and (max-width: 920px) { .bustext .bustext__features { text-align: center; } }
 .bustext .bustext__features li { display: inline-block; vertical-align: bottom; margin: 0 20px; text-align: center; }
 .bustext .bustext__features span { font-size: 12px; color: #006e68; text-transform: uppercase; display: block; margin-top: 5px; }
 .bustext .bustext__features i { display: inline-block; }
@@ -68,9 +70,11 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .bustext .bustext__features .i-wifi { background: url('../img/icons-se6604e9b92.png') 0 -612px no-repeat; width: 45px; height: 26px; }
 .bustext .bustext__features .i-mood { background: url('../img/icons-se6604e9b92.png') 0 -501px no-repeat; width: 35px; height: 34px; }
 .bustext .bustext__text { font-size: 16px; color: #082038; text-transform: uppercase; }
+@media only screen and (max-width: 920px) { .bustext .bustext__text { margin: 20px; } }
 .bustext .bustext__text strong { font-family: dinb, arial, sans-serif; }
 .bustext .share { margin-top: 40px; }
 .bustext .bustext__welcome { float: right; margin-top: 61px; width: 50%; text-align: center; }
+@media only screen and (max-width: 920px) { .bustext .bustext__welcome { width: auto; display: block; float: none; margin-top: 0; } }
 
 .sl .sl__slide { position: relative; }
 .sl .poster { overflow: hidden; }
@@ -84,7 +88,7 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .slick-active + .slick-active + .slick-active + .slick-active + .slick-active { position: static; }
 .slick-active + .slick-active + .slick-active + .slick-active + .slick-active .poster { position: static; }
 
-.poster__over { position: absolute; bottom: 0; position: absolute; left: 0; right: 0; height: 404px; background: url(../img/busover.png) no-repeat 0 0; z-index: 500; opacity: 0; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
+.poster__over { position: absolute; bottom: 0; position: absolute; left: 0; right: 0; height: 404px; background: url(../img/busover.png) no-repeat 0 100%; -moz-background-size: 100% auto; -webkit-background-size: 100% auto; background-size: 100% auto; z-index: 500; opacity: 0; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
 
 .sl .slick-center { position: relative; z-index: 2000; }
 .sl .slick-center .poster { position: absolute; left: -40px; right: -40px; top: -50px; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; transition: all 0.2s linear; }
@@ -106,12 +110,17 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 
 .borjomimusic { position: relative; margin-bottom: 107px; }
 .borjomimusic .borjomimusic__info { width: 543px; margin-left: 50px; margin-bottom: 61px; }
+@media only screen and (max-width: 920px) { .borjomimusic .borjomimusic__info { width: auto; margin: 20px; } }
 .borjomimusic .borjomimusic__illustration { position: absolute; top: 107px; right: 83px; z-index: 10; }
+@media only screen and (max-width: 920px) { .borjomimusic .borjomimusic__illustration { display: none; } }
 .borjomimusic .borjomimusicg__text { font-size: 16px; text-transform: uppercase; color: #082038; padding-top: 28px; }
 .borjomimusic .borjomimusicg__text strong { font-weight: normal; font-family: dinb, arial, sans-serif; }
 .borjomimusic .share { margin-top: 40px; }
-.borjomimusic .borjomimusic__map { margin-top: 45px; }
+.borjomimusic .borjomimusic__map { margin-top: 45px; overflow: hidden; }
 .borjomimusic .borjomimusic__video { position: relative; }
+@media only screen and (max-width: 1148px) { .borjomimusic .borjomimusic__video { position: relative; width: 100%; height: 0; padding-bottom: 60%; } }
+.borjomimusic .borjomimusic__video iframe { width: 100%; height: 100%; }
+@media only screen and (max-width: 1148px) { .borjomimusic .borjomimusic__video iframe { position: absolute; top: 0; right: 0; bottom: 0; left: 0; } }
 
 .water { margin-bottom: 107px; }
 .water .water__text { text-align: center; font-size: 16px; color: #082038; text-transform: uppercase; width: 60%; margin: 0 auto; padding-top: 20px; margin-bottom: 40px; }
@@ -119,19 +128,27 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .water .water__text .share { margin-top: 33px; }
 .water .water__pics { overflow: hidden; }
 .water .water__pics ul { float: left; list-style: none; width: 457px; }
+@media only screen and (max-width: 1148px) { .water .water__pics ul { width: 100%; } }
 .water .water__pics ul li { float: left; margin: 0 7px 7px 0; }
+@media only screen and (max-width: 1148px) { .water .water__pics ul li { margin: 0; width: 50%; } }
 .water .water__pics ul img { display: block; }
+@media only screen and (max-width: 1148px) { .water .water__pics ul img { width: 100%; } }
 .water .water__pics ul + ul { float: right; width: auto; width: 694px; overflow: hidden; margin-left: -6px; }
+@media only screen and (max-width: 1148px) { .water .water__pics ul + ul { width: 100%; margin: 0; } }
+@media only screen and (max-width: 1148px) { .water .water__pics ul + ul li { display: block; width: 100%; } }
 
 .photo3d { margin-bottom: 70px; }
 .photo3d .photo3d__info { overflow: hidden; }
 .photo3d .photo3d__pic img { display: block; }
+@media only screen and (max-width: 1148px) { .photo3d .photo3d__pic img { width: 100%; } }
 .photo3d .photo3d__text { float: left; width: 535px; font-size: 16px; color: #082038; text-transform: uppercase; padding: 70px 50px 0 50px; }
+@media only screen and (max-width: 1148px) { .photo3d .photo3d__text { padding: 20px; width: auto; float: none; } }
 .photo3d .photo3d__text strong { font-weight: normal; font-family: dinb, arial, sans-serif; }
 .photo3d .photo3d__text .share { margin-top: 20px; }
 .photo3d .photo3d__map { float: right; }
+@media only screen and (max-width: 1148px) { .photo3d .photo3d__map { float: none; } }
 
-.friends { border-top: 17px solid #9a8050; padding: 34px 0 41px 0; text-align: center; }
+.friends { border-top: 17px solid #9a8050; padding: 34px 0 41px 0; text-align: center; padding: 0; }
 .friends * { display: none; }
 .friends h3 { font-weight: normal; font-family: dinb, arial, sans-serif; font-size: 26px; color: #2e8a86; text-transform: uppercase; margin-bottom: 16px; }
 .friends ul { list-style: none; text-align: center; font-size: 0; }
@@ -143,9 +160,13 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .friends .friends__gp { background: url('../img/icons-se6604e9b92.png') 0 -301px no-repeat; width: 39px; height: 40px; }
 
 .schedule { margin: 60px 0; }
+.schedule .schedule__img { display: none; }
+@media only screen and (max-width: 1148px) { .schedule .schedule__img { display: block; } }
+@media only screen and (max-width: 1148px) { .schedule .schedule__img img { display: block; width: 100%; } }
 .schedule .schedule__title { font-size: 24px; border-top: 2px solid #001f3a; text-transform: uppercase; font-weight: normal; color: #001f3a; text-align: center; }
 .schedule .schedule__title span { display: inline-block; padding: 0 36px; background: white; position: relative; top: -0.6em; line-height: 1; }
 .schedule table { border-spacing: 10px; border-collapse: collapse; width: 100%; }
+@media only screen and (max-width: 1148px) { .schedule table { display: none; } }
 .schedule table a { display: block; padding: 0 10px; text-decoration: none; color: #001f3a; }
 .schedule table thead th { font-weight: normal; text-align: center; border-right: 10px solid white; }
 .schedule table thead th:first-child { text-align: left; }
