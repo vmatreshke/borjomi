@@ -2,6 +2,8 @@
 .out
 	width: 1148px 
 	margin: 0 auto
+	+r
+		width: auto 
 
 
 .header
@@ -23,6 +25,8 @@
 		padding-top: 16px 
 		margin-right: 48px 
 		float: right
+		+r1
+			display: none
 		li
 			display: inline-block
 		a
@@ -32,7 +36,14 @@
 			margin-left: 38px 
 			&:hover
 				color: #006d67 
-
+	select
+		display: none
+		+r1
+			display: block
+			float: right
+			width: 200px 
+			margin-right: 20px 
+			margin-top: 10px 
 
 .buspromo
 	position: relative
@@ -42,17 +53,22 @@
 	margin-bottom: 101px 
 	.buspromo__illustration
 		overflow: hidden
+		img
+			display: block
+			width: 100% 
 	.buspromo__dates
 		+s(date)
 		+hide-text
 		position: absolute
 		left: 33px
 		top: 55px 
+		display: none
 	.buspromo__alphajazz
 		right: 44px 
 		top: 60px 
 		position: absolute
 		+s(jazz)
+		background: transparent 
 	.buspromo__text
 		font-size: 20px 
 		color: #082038
@@ -98,6 +114,20 @@
 .busonline
 	.busonline__video
 		position: relative
+		+r
+			position: relative
+			width: 100%
+			height: 0
+			padding-bottom: 60%   
+		iframe
+			width: 100%
+			height: 100%  
+			+r
+				position: absolute
+				top: 0
+				right: 0
+				bottom: 0
+				left: 0    
 
 .bustext
 	margin-top: 93px 
