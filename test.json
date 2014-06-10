@@ -1,4 +1,4 @@
-{ 
+g = { 
 "firstgallery":[
     {"small":"img/poster1.jpg", "big":"img/01.jpg"},
     {"small":"img/poster2.jpg", "big":"img/01.jpg"},
