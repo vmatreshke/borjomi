@@ -52,10 +52,8 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .videostart i { background: url('../img/icons-se6604e9b92.png') 0 -545px no-repeat; width: 90px; height: 57px; display: inline-block; }
 .videostart .videostart__label { display: block; font-weight: normal; font-family: dinb, arial, sans-serif; text-transform: uppercase; font-size: 26px; color: white; margin-top: 14px; }
 
-.busonline .busonline__video { position: relative; }
-@media only screen and (max-width: 1148px) { .busonline .busonline__video { position: relative; width: 100%; height: 0; padding-bottom: 60%; } }
-.busonline .busonline__video iframe { width: 100%; height: 100%; }
-@media only screen and (max-width: 1148px) { .busonline .busonline__video iframe { position: absolute; top: 0; right: 0; bottom: 0; left: 0; } }
+.busonline .busonline__video { position: relative; position: relative; width: 100%; height: 0; padding-bottom: 60%; }
+.busonline .busonline__video iframe { width: 100%; height: 100%; position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
 
 .bustext { margin-top: 93px; overflow: hidden; }
 .bustext .bustext__info { width: 505px; margin-left: 64px; }
@@ -80,7 +78,7 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .sl .poster { overflow: hidden; }
 .sl .poster img { display: block; width: 100%; }
 
-.sl__wrap { height: 360px; position: relative; z-index: 2000; }
+.sl__wrap { height: 360px; position: relative; z-index: 2000; margin-top: 100px; }
 
 .slick-active + .slick-active { position: relative; z-index: 1900; }
 .slick-active + .slick-active .poster { z-index: 1900; position: absolute; left: -20px; right: -20px; top: -25px; }
@@ -117,10 +115,8 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .borjomimusic .borjomimusicg__text strong { font-weight: normal; font-family: dinb, arial, sans-serif; }
 .borjomimusic .share { margin-top: 40px; }
 .borjomimusic .borjomimusic__map { margin-top: 45px; overflow: hidden; }
-.borjomimusic .borjomimusic__video { position: relative; }
-@media only screen and (max-width: 1148px) { .borjomimusic .borjomimusic__video { position: relative; width: 100%; height: 0; padding-bottom: 60%; } }
-.borjomimusic .borjomimusic__video iframe { width: 100%; height: 100%; }
-@media only screen and (max-width: 1148px) { .borjomimusic .borjomimusic__video iframe { position: absolute; top: 0; right: 0; bottom: 0; left: 0; } }
+.borjomimusic .borjomimusic__video { position: relative; position: relative; width: 100%; height: 0; padding-bottom: 60%; }
+.borjomimusic .borjomimusic__video iframe { width: 100%; height: 100%; position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
 
 .water { margin-bottom: 107px; }
 .water .water__text { text-align: center; font-size: 16px; color: #082038; text-transform: uppercase; width: 60%; margin: 0 auto; padding-top: 20px; margin-bottom: 40px; }
@@ -159,7 +155,7 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .friends .friends__in { background: url('../img/icons-se6604e9b92.png') 0 -401px no-repeat; width: 39px; height: 40px; }
 .friends .friends__gp { background: url('../img/icons-se6604e9b92.png') 0 -301px no-repeat; width: 39px; height: 40px; }
 
-.schedule { margin: 60px 0; }
+.schedule { margin: 100px 0 100px 0; }
 .schedule .schedule__img { display: none; }
 @media only screen and (max-width: 1148px) { .schedule .schedule__img { display: block; } }
 @media only screen and (max-width: 1148px) { .schedule .schedule__img img { display: block; width: 100%; } }
