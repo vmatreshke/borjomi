@@ -98,13 +98,12 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 @media screen and (max-width: 480px) { .map { margin-top: 140px; } }
 .map > ymaps { width: 100% !important; }
 
-.hashtag { margin-bottom: 109px; display: none; }
+.hashtag { margin-bottom: 109px; }
 .hashtag .hashtag__title { text-align: center; border-top: 2px solid #006e68; }
 .hashtag .hashtag__title span { display: inline-block; position: relative; top: -0.5em; padding: 0 65px; background: white; font-size: 47px; font-weight: normal; color: #0f4a49; line-height: 1; text-transform: uppercase; font-family: dinb, arial, sans-serif; }
-
-#instafeed { margin-right: -13px; font-size: 0; display: none; }
-#instafeed a { width: 220px; display: inline-block; margin: 0 12px 12px 0; }
-#instafeed a img { display: block; width: 220px; }
+.hashtag .hastag__feed { margin-right: -13px; font-size: 0; display: none; }
+.hashtag .hastag__feed a { width: 220px; display: inline-block; margin: 0 12px 12px 0; }
+.hashtag .hastag__feed a img { display: block; width: 220px; }
 
 .share { text-transform: none; }
 
