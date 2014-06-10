@@ -4,7 +4,10 @@ head.ready(function() {
 
 $.getJSON( "/borjomi/test.json", function( data ) {
   console.log(data);
-  console.log('----------')
+  console.log('----------');
+   $.each( data, function( key, val ) {
+    console.log( "<li id='" + key + "'>" + val + "</li>" );
+  });
 });
 
 g = { 
