@@ -2,7 +2,7 @@ head.ready(function() {
 
 
 
-$.getJSON( "ajax/test.json", function( data ) {
+$.getJSON( "/borjomi/test.json", function( data ) {
   console.log(data);
   console.log('----------')
 });
