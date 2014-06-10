@@ -105,6 +105,8 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .hashtag .hastag__feed a { width: 220px; display: inline-block; margin: 0 12px 12px 0; }
 .hashtag .hastag__feed a img { display: block; width: 220px; }
 
+.placeholder .hashtag { margin-top: 40px; }
+
 .share { text-transform: none; }
 
 .borjomimusic { position: relative; margin-bottom: 107px; }

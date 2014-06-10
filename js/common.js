@@ -19,7 +19,13 @@ $.getJSON( "http://coderiver.github.io/borjomi/test.js" )
 	}
 
 	a1 = g.firstgallery;
+	a2 = g.secondgallery;
+	a3 = g.thirdgallery;
+	a4 = g.fourthgallery;
 	createg(a1,'firstgallery','borjomibus');
+	createg(a2,'secondgallery','borjomimusic');
+	createg(a3,'thirdgallery','borjomiwater');
+	createg(a4,'fourthgallery','borjomi3d');
 
 
 
