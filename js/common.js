@@ -1,8 +1,8 @@
 head.ready(function() {
 
 
-
-$.getJSON( "/borjomi/test.json", function( data ) {
+console.log('111');
+$.getJSON( "http://coderiver.github.io/borjomi/test.json", function( data ) {
   console.log(data);
   console.log('----------');
    $.each( data, function( key, val ) {
