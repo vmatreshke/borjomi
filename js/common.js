@@ -1,58 +1,85 @@
 head.ready(function() {
 
-	video_visible=false;
-	3d_pic_visible=false;
-	waterscreen_pic_visible=false;
+
+
+$.getJSON( "ajax/test.json", function( data ) {
+  console.log(data);
+  console.log('----------')
+});
+
+g = { 
+"firstgallery":[
+    {"small":"img/poster1.jpg", "big":"img/01.jpg"},
+    {"small":"img/poster2.jpg", "big":"img/01.jpg"},
+    {"small":"img/poster3.jpg", "big":"img/01.jpg"}
+],
+"secondgallery":[
+    {"small":"img/poster4.jpg", "big":"img/01.jpg"},
+    {"small":"img/poster5.jpg", "big":"img/01.jpg"},
+    {"small":"img/poster6.jpg", "big":"img/01.jpg"}
+]
+};
+
+
+function createg(arr, targetdiv,title){
+	if(arr.length>0){
+		preresult = '<div class="hashtag"><div class="hashtag__title"><span>#'+title+'</span></div><div id="hastag__feed">';
+		postresult = '</div></div>'
+		result = '';
+		for (var i = 0; i < arr.length; i++) { 
+	    	result = result + "<a class='fancybox' href='"+arr[i].big+"'><img src='"+arr[i].small+"' alt='' /></a>"
+		}
+		$('#'+targetdiv).html(preresult+result+postresult);
+
+	}
+}
+
+a1 = g.firstgallery;
+createg(a1,'firstgallery','borjomibus');
+
+
+
 
 	//$('.hashtag a').fancybox();
 	
-	$(".hashtag a").fancybox({
-		'transitionIn'	:	'elastic',
-		'transitionOut'	:	'elastic',
-		'speedIn'		:	600, 
-		'speedOut'		:	200, 
-		'overlayShow'	:	false
-	});
-	$('.hashtag a').click(function(event) {
-		//return false;
-	});
+	$(".fancybox").fancybox();
 
 
 
 
 
-	var agent = navigator.userAgent,
-	event = (agent.match(/iPad/i)) ? "touchstart" : "click";
+	// var agent = navigator.userAgent,
+	// event = (agent.match(/iPad/i)) ? "touchstart" : "click";
 
-	$(document).bind(event, function(e){
-		$(".js-popup").hide();
-	});
+	// $(document).bind(event, function(e){
+	// 	$(".js-popup").hide();
+	// });
 
-	$('.sl').slick({
-		  centerMode: true,
-		  centerPadding: '60px',
-		  slidesToShow: 5,
-		  responsive: [
-		    {
-		      breakpoint: 768,
-		      settings: {
-		        arrows: false,
-		        centerMode: true,
-		        centerPadding: '40px',
-		        slidesToShow: 3
-		      }
-		    },
-		    {
-		      breakpoint: 480,
-		      settings: {
-		        arrows: false,
-		        centerMode: true,
-		        centerPadding: '40px',
-		        slidesToShow: 1
-		      }
-		    }
-		  ]
-		});
+	// $('.sl').slick({
+	// 	  centerMode: true,
+	// 	  centerPadding: '60px',
+	// 	  slidesToShow: 5,
+	// 	  responsive: [
+	// 	    {
+	// 	      breakpoint: 768,
+	// 	      settings: {
+	// 	        arrows: false,
+	// 	        centerMode: true,
+	// 	        centerPadding: '40px',
+	// 	        slidesToShow: 3
+	// 	      }
+	// 	    },
+	// 	    {
+	// 	      breakpoint: 480,
+	// 	      settings: {
+	// 	        arrows: false,
+	// 	        centerMode: true,
+	// 	        centerPadding: '40px',
+	// 	        slidesToShow: 1
+	// 	      }
+	// 	    }
+	// 	  ]
+	// 	});
 
 	//console.log($('body').html());
 });
