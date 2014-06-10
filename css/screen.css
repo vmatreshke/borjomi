@@ -101,9 +101,11 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .hashtag { margin-bottom: 109px; }
 .hashtag .hashtag__title { text-align: center; border-top: 2px solid #006e68; }
 .hashtag .hashtag__title span { display: inline-block; position: relative; top: -0.5em; padding: 0 65px; background: white; font-size: 47px; font-weight: normal; color: #0f4a49; line-height: 1; text-transform: uppercase; font-family: dinb, arial, sans-serif; }
-.hashtag .hastag__feed { margin-right: -23px; font-size: 0; display: none; font-size: 0; }
-.hashtag .hastag__feed a { width: 20%; display: inline-block; margin: 0 5% 10px 0; }
-.hashtag .hastag__feed a img { display: block; width: 220px; }
+.hashtag .hashtag__feed { margin-right: 0; font-size: 0; font-size: 0; overflow: hidden; }
+.hashtag .hashtag__feed a { width: 16%; display: inline-block; margin: 0 0 10px 5%; float: left; overflow: hidden; }
+.hashtag .hashtag__feed a:first-child { margin-left: 0; }
+.hashtag .hashtag__feed a:nth-child(5n+1) { margin-left: 0; }
+.hashtag .hashtag__feed a img { display: block; width: 100%; }
 
 .placeholder .hashtag { margin-top: 40px; }
 

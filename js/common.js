@@ -7,7 +7,7 @@ $.getJSON( "http://coderiver.github.io/borjomi/test.js" )
     g = json;
     function createg(arr, targetdiv,title){
 		if(arr.length>0){
-			preresult = '<div class="hashtag"><div class="hashtag__title"><span>#'+title+'</span></div><div id="hastag__feed">';
+			preresult = '<div class="hashtag"><div class="hashtag__title"><span>#'+title+'</span></div><div class="hashtag__feed">';
 			postresult = '</div></div>'
 			result = '';
 			for (var i = 0; i < arr.length; i++) { 
