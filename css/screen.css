@@ -28,6 +28,12 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .out { width: 1148px; margin: 0 auto; }
 @media only screen and (max-width: 1148px) { .out { width: auto; } }
 
+.hide-water #borjomiwaterscreen { display: none; }
+
+.hide-3d #borjomi3d { display: none; }
+
+.hide-video .busonline__video, .hide-video .borjomimusic__video { display: none; }
+
 .header { background: #94b3ae; padding: 18px 0 15px 0; overflow: hidden; border-bottom: 9px solid #9b8052; }
 .header .header__logo { float: left; background: url('../img/icons-se6604e9b92.png') 0 -176px no-repeat; width: 127px; height: 44px; font: 0/0 a; text-shadow: none; color: transparent; display: block; margin-left: 38px; }
 .header ul { list-style: none; text-align: right; font-size: 16px; text-transform: uppercase; padding-top: 16px; margin-right: 48px; float: right; }
