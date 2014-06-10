@@ -95,7 +95,7 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .slick-list { padding-top: 70px !important; padding-bottom: 70px !important; }
 
 .map { margin-bottom: 50px; }
-@media screen and (max-width: 480px) { .map { display: none; } }
+@media screen and (max-width: 480px) { .map { margin-top: 140px; } }
 .map > ymaps { width: 100% !important; }
 
 .hashtag { margin-bottom: 109px; display: none; }
