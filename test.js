@@ -9,4 +9,4 @@
     {"small":"img/poster5.jpg", "big":"img/01.jpg"},
     {"small":"img/poster6.jpg", "big":"img/01.jpg"}
 ]
-};
+}
