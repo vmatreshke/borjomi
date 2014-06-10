@@ -242,7 +242,11 @@
 	padding-bottom: 70px !important
 .map
 	margin-bottom: 50px 
-
+	+max-screen(480)
+		display: none
+	&>ymaps
+		width: 100% !important
+		
 
 
 .hashtag
