@@ -53,6 +53,7 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .buspromo .buspromo__text strong { font-family: dinb, arial, sans-serif; font-weight: normal; }
 
 .h2 { font-weight: normal; font-family: dinb, arial, sans-serif; background: #518c85; text-align: center; font-size: 36px; height: 65px; line-height: 65px; border-bottom: 4px solid white; box-shadow: 0 4px 0 #9b8052; margin-bottom: 24px; text-transform: uppercase; color: white; }
+@media only screen and (max-width: 700px) { .h2 { font-size: 25px; overflow: hidden; } }
 
 .videostart { position: absolute; top: 50%; left: 50%; width: 300px; text-align: center; margin-left: -150px; margin-top: -40px; cursor: pointer; }
 .videostart i { background: url('../img/icons-se6604e9b92.png') 0 -545px no-repeat; width: 90px; height: 57px; display: inline-block; }
@@ -78,7 +79,8 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .bustext .bustext__text strong { font-family: dinb, arial, sans-serif; }
 .bustext .share { margin-top: 40px; }
 .bustext .bustext__welcome { float: right; margin-top: 61px; width: 50%; text-align: center; }
-@media only screen and (max-width: 920px) { .bustext .bustext__welcome { width: auto; display: block; float: none; margin-top: 0; } }
+@media only screen and (max-width: 920px) { .bustext .bustext__welcome { width: auto; margin-left: 0; display: block; float: none; margin-top: 0; } }
+.bustext .bustext__welcome img { display: block; width: 80%; margin-left: 10%; }
 
 .sl .sl__slide { position: relative; }
 .sl .poster { overflow: hidden; }

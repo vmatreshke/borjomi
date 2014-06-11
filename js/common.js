@@ -51,6 +51,21 @@ $.getJSON( "http://coderiver.github.io/borjomi/test.js" )
 
 
 
+$(".header ul a").click(function() {
+	as = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop: $(""+as).offset().top
+    }, 2000);
+    return false;
+});
+
+$('.header select').change(function(event) {
+	as = $(this).val();
+    $('html, body').animate({
+        scrollTop: $(""+as).offset().top
+    }, 2000);
+});
+
 
 
 
