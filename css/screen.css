@@ -28,9 +28,9 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; font-f
 .out { width: 1148px; margin: 0 auto; }
 @media only screen and (max-width: 1148px) { .out { width: auto; } }
 
-.hide-water #borjomiwaterscreen { display: none; }
+.hide-water #borjomiwaterscreen .photo3d__pic { display: none; }
 
-.hide-3d #borjomi3d { display: none; }
+.hide-3d #borjomi3d .photo3d__pic { display: none; }
 
 .hide-video .busonline__video, .hide-video .borjomimusic__video { display: none; }
 
